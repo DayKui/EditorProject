@@ -166,7 +166,7 @@ MonoBehaviour:
       Entry: 7
       Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.String,
         mscorlib]], mscorlib
-    - Name: 
+    - Name: comparer
       Entry: 7
       Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
         mscorlib]], mscorlib
@@ -238,13 +238,13 @@ MonoBehaviour:
   v: {x: 0, y: 100}
   hpBar: 0.41710097
   direction: 3
-  array: 6400000000000000000000000000000000000000000000003700000000000000000000000a000000000000002a00000064000000000000000000000000000000000000001400000000000000
+  array: 0000000000000000640000000000000000000000000000003700000000000000000000000a000000000000002a00000064000000000000000000000000000000000000001400000000000000
   value: Thor
   stringList:
-  - fsdf
   - s
   - ss
   - fff
+  - fsdf
   selectString: fsdf
 --- !u!1 &400883274
 GameObject:
@@ -552,13 +552,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []
-  showEnemiesFoldout: 010101010101010101010101010101010101
+  showEnemiesFoldout: 000001010101010101010101010101010101010101
   maxValue: 139
   minValue: 11
   minValueColor: {r: 1, g: 0, b: 0, a: 1}
   maxValueColor: {r: 0.826, g: 0.863, b: 0.397, a: 1}
-  backGroundColor: {r: 0.44117647, g: 0.88438123, b: 1, a: 0.516}
-  buttonColor: {r: 0.99574035, g: 0.9558824, b: 1, a: 1}
+  backGroundColor: {r: 1, g: 1, b: 1, a: 0.516}
+  buttonColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1511667618
 Transform:
   m_ObjectHideFlags: 0

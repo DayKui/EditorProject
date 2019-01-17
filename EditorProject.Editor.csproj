@@ -330,9 +330,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\AssetsEditor.cs" />
+    <Compile Include="Assets\Editor\CurveBombInspect.cs" />
     <Compile Include="Assets\Editor\EnemyListEditor.cs" />
     <Compile Include="Assets\Editor\LayoutEditor.cs" />
     <Compile Include="Assets\Editor\SpineAssetEditor.cs" />
+    <Compile Include="Assets\Editor\Study_01_03.cs" />
+    <Compile Include="Assets\Editor\Stydy_01_01.cs" />
+    <Compile Include="Assets\Editor\Stydy_01_02.cs" />
     <Compile Include="Assets\Editor\VariableEditor.cs" />
     <Compile Include="Assets\spine-unity\Editor\AtlasAssetInspector.cs" />
     <Compile Include="Assets\spine-unity\Editor\BoneFollowerInspector.cs" />

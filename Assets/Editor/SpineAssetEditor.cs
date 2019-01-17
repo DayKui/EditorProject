@@ -10,6 +10,7 @@ public class SpineAssetEditor : Editor
     {
         SpineAsset spineAsset = ScriptableObject.CreateInstance<SpineAsset>();
         AssetDatabase.CreateAsset(spineAsset, "Assets/SpineAsset.asset");
+       // EditorUtility.SetDirty(spineAsset);
     }
     private SpineAsset spineAsset { get { return target as SpineAsset; } }
 

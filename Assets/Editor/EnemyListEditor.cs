@@ -16,9 +16,9 @@ public class EnemyListEditor : Editor
 			_enemyList.showEnemiesFoldout = new List<bool>();
 		}	
 	}
-
-	public override void OnInspectorGUI()
+    public override void OnInspectorGUI()
 	{
+       
 		EditorGUI.BeginChangeCheck();
 		GUI.color = _enemyList.backGroundColor;
 		EditorGUILayout.BeginVertical( "box" );
@@ -110,7 +110,7 @@ public class EnemyListEditor : Editor
         else
         {
             float delta = (average - value) / average;
-            GUI.backgroundColor = new Color(delta, 1-delta, delta, 1f);
+            GUI.backgroundColor = new Color(delta, 1 - delta, delta, 1f);
         }
 
         //Color maxColor = _enemyList.maxValueColor;

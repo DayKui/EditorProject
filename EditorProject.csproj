@@ -322,6 +322,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CurveBomb.cs" />
     <Compile Include="Assets\Scripts\EnemyList.cs" />
     <Compile Include="Assets\Scripts\Layout.cs" />
     <Compile Include="Assets\Scripts\OdinTest.cs" />
