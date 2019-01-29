@@ -352,6 +352,7 @@
     <Compile Include="Assets\YuSongStudy\Editor\DrawContext.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\DrawScene.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\DrawTransform.cs" />
+    <Compile Include="Assets\YuSongStudy\Editor\EditorWindowStudy.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\MenuStudy.cs" />
   </ItemGroup>
   <ItemGroup>
