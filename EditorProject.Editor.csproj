@@ -348,12 +348,15 @@
     <Compile Include="Assets\spine-unity\Editor\SpineEditorUtilities.cs" />
     <Compile Include="Assets\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
     <Compile Include="Assets\spine-unity\SkeletonUtility\Editor\SkeletonUtilityInspector.cs" />
+    <Compile Include="Assets\YuSongStudy\Editor\ClearConsole.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\DontForce.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\DrawContext.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\DrawScene.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\DrawTransform.cs" />
+    <Compile Include="Assets\YuSongStudy\Editor\EditorStytleStudy.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\EditorWindowStudy.cs" />
     <Compile Include="Assets\YuSongStudy\Editor\MenuStudy.cs" />
+    <Compile Include="Assets\YuSongStudy\Editor\Preview1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Sirenix\Assemblies\AOT\link.xml" />
